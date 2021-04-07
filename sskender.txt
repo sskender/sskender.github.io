@@ -1,3 +1,21 @@
 <span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cd /var/www/html
-<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cat about.txt<br/><br/>
+<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cat <span id="filename">ABOUT_ME</span><br/><br/>
 Hello world
+
+<!-- projects -->
+<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> find <span id="filename">PROJECTS</span> -type f -exec head {} \;
+
+<span id="filetitle">COFFEELY</span>
+Track your daily coffee routine.
+
+Node.js, Google API, MongoDB, Nginx, Docker, GitLab CI/CD
+<a href="https://www.coffeely.club">Landing Page</a>
+
+
+<span id="filetitle">DeFi farm</span>
+Farm COMP token and swap rewards on Uniswap DEX.
+
+Solidity, Truffle, Ganache, JavaScript, Vue.js, Web3
+<a href="https://github.com/sskender/npo-dao">View repository</a>
+
+<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span>

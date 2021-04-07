@@ -16,6 +16,15 @@ body {
   font-size: 18px;
 }
 
+#filename {
+  color: #ff0;
+}
+
+#filetitle {
+  color: #ff00ff;
+  text-decoration: bold;
+}
+
 a {
   color: #0bc;
   text-decoration: none;

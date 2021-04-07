@@ -18,6 +18,7 @@ body {
 
 #filename {
   color: #ff0;
+  text-decoration: underline;
 }
 
 #filetitle {

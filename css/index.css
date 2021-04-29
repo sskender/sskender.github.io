@@ -16,12 +16,12 @@ body {
   font-size: 18px;
 }
 
-#filename {
+#maintitle {
   color: #ff0;
   text-decoration: underline;
 }
 
-#filetitle {
+#keyword {
   color: #ff00ff;
   text-decoration: bold;
 }

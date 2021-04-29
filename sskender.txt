@@ -1,21 +1,44 @@
 <span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cd /var/www/html
-<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cat <span id="filename">ABOUT_ME</span><br/><br/>
-Hello world
-
-<!-- projects -->
-<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> find <span id="filename">PROJECTS</span> -type f -exec head {} \;
-
-<span id="filetitle">COFFEELY</span>
-Track your daily coffee routine.
-
-Node.js, Google API, MongoDB, Nginx, Docker, GitLab CI/CD
-<a href="https://www.coffeely.club">Landing Page</a>
+<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> cat <span id="maintitle">ABOUT</span>
 
 
-<span id="filetitle">DeFi farm</span>
-Farm COMP token and swap rewards on Uniswap DEX.
 
-Solidity, Truffle, Ganache, JavaScript, Vue.js, Web3
-<a href="https://github.com/sskender/npo-dao">View repository</a>
+Hi there 👋
+
+my name is Sven Skender.
+
+
+
+I am currently studying at
+
+'<span id="keyword">Faculty of Electrical Engineering and Computing</span>' at University of Zagreb,
+
+specializing in '<span id="keyword">Software Engineering and Information System</span>'.
+
+
+
+My main field of interest is <span id="keyword">blockchain</span> technology.
+
+I am also a <span id="keyword">Back-End</span> developer with slight tendency towards <span id="keyword">DevOps</span>.
+
+Sometimes, for fun, I do projects in React.js and Vue.js as well.
+
+<span id="keyword">Linux</span> is my passion.
+
+
+
+Feel free to reach me at <a id="contact-link" href="mailto:sskender@pm.me">sskender@pm.me</a>
+
+
+
+<span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> ls <span id="maintitle">CONTACT</span>
+
+<a id="contact-link" href="https://www.linkedin.com/in/sven-skender-51207818b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+
+<a href="https://resume.github.io/?sskender" target="_blank" rel="noopener noreferrer">Curriculum Vitae (CV) </a>
+
+<a id="contact-link" href="https://github.com/sskender" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+
+<a href="https://resume.github.io/?sskender" target="_blank" rel="noopener noreferrer">GitHub Resume</a>
 
 <span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span>

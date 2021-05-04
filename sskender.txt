@@ -17,7 +17,7 @@ specializing in '<span id="keyword">Software Engineering and Information System<
 
 
 
-My main field of interest is <span id="keyword">blockchain</span> technology.
+My main field of interest is <span id="keyword">Blockchain</span> technology.
 
 I am also a <span id="keyword">Back-End</span> developer with slight tendency towards <span id="keyword">DevOps</span>.
 

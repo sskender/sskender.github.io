@@ -33,11 +33,11 @@ Feel free to reach me at <a id="contact-link" href="mailto:sskender@pm.me">ssken
 
 <span id="a">sskender@arch</span>:<span id="b">~</span><span id="c">$</span> ls <span id="maintitle">CONTACT</span>
 
-<a id="contact-link" href="https://www.linkedin.com/in/sven-skender-51207818b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+<a href="https://www.linkedin.com/in/sven-skender-51207818b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
 
 <a href="data/Sven_Skender_CV.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae (CV) </a>
 
-<a id="contact-link" href="https://github.com/sskender" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+<a href="https://github.com/sskender" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
 
 <a href="https://resume.github.io/?sskender" target="_blank" rel="noopener noreferrer">GitHub Resume</a>
 

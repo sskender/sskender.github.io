@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
+
+html {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.container-fluid {
+    height: 100%;
+    display: table;
+    width: 100%;
+    padding: 0;
+}
+
+.row-fluid {
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.centering {
+    float: none;
+    margin: 0 auto;
+}
+
+.background-image {
+    background: url(../img/bg.jpg);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-position: center !important;
+}
+
+.content {
+    z-index: 2;
+}
+
+.typed-content {
+    display: none;
+}
+
+.header {
+    font-size: 50px;
+}
+
+.noselect {
+    cursor: default;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.social-icon {
+    opacity: 0.5;
+    font-size: 42px;
+    color: #fff;
+}
+
+.social-icon.start {
+    opacity: 0 !important;
+    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
+            -webkit-animation-fill-mode: forwards; 
+            -moz-animation-fill-mode: forwards; 
+            -ms-animation-fill-mode: forwards; 
+            -o-animation-fill-mode: forwards; 
+            animation-fill-mode: forwards
+}
+
+.social-icon.done:hover {
+   opacity: 1.0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+}
+
+.social-icon.icon-linkedin-squared {
+    -webkit-animation-delay: 1.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 1.0s; /* Firefox < 16 */
+        -ms-animation-delay: 1.0s; /* Internet Explorer */
+         -o-animation-delay: 1.0s; /* Opera < 12.1 */
+            animation-delay: 1.0s;
+}
+
+.social-icon.icon-github {
+    -webkit-animation-delay: 1.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 1.5s; /* Firefox < 16 */
+        -ms-animation-delay: 1.5s; /* Internet Explorer */
+         -o-animation-delay: 1.5s; /* Opera < 12.1 */
+            animation-delay: 1.5s;
+}
+
+.social-icon.icon-mail {
+    -webkit-animation-delay: 2.0s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 2.0s; /* Firefox < 16 */
+        -ms-animation-delay: 2.0s; /* Internet Explorer */
+         -o-animation-delay: 2.0s; /* Opera < 12.1 */
+            animation-delay: 2.0s;
+}
+
+.social-icon.icon-attach-1 {
+    -webkit-animation-delay: 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation-delay: 2.5s; /* Firefox < 16 */
+        -ms-animation-delay: 2.5s; /* Internet Explorer */
+         -o-animation-delay: 2.5s; /* Opera < 12.1 */
+            animation-delay: 2.5s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.5; }
+}
+
+/** Typed.js Blinking Cursor **/
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}

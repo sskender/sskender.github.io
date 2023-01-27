@@ -21,3 +21,7 @@ h1 {
     height: 150px;
     border-radius: 50%;
 }
+
+.email {
+    font-family: 'Courier New', Courier, monospace;
+}

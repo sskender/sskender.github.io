@@ -4,8 +4,13 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
-    text-shadow: 0.5px 0.5px 0.5px #ccc;
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkslategray;
 }
 
 .container {
@@ -17,11 +22,12 @@ h1 {
 }
 
 .profile {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
 }
 
 .email {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
+    font-size: larger;
 }

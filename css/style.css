@@ -1,34 +1,148 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111111;
+    --subtext-color: #555555;
+    --link-color: #111111;
+    --hover-color: #444444;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0a0a0a;
+        --text-color: #f0f0f0;
+        --subtext-color: #aaaaaa;
+        --link-color: #f0f0f0;
+        --hover-color: #cccccc;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
 body {
-    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+@media (max-height: 500px) {
+
+    html,
+    body {
+        overflow-y: auto;
+    }
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.6;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkslategray;
-    text-decoration: underline;
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
+    padding: 2rem;
+    max-width: 600px;
+    animation: fadeIn 0.8s ease-out;
 }
 
 .profile {
-    width: 175px;
-    height: 175px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.03em;
 }
 
 .email {
-    font-family: "Courier New", Courier, monospace;
-    font-size: larger;
+    font-family: "SF Mono", "Menlo", "Monaco", "Courier New", monospace;
+    font-size: 1rem;
+    color: var(--subtext-color);
+    margin-bottom: 2rem;
+    display: block;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.info a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 2px;
+}
+
+.info a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--text-color);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.info a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+    text-align: center;
+    color: var(--subtext-color);
+    font-size: 0.85rem;
+    opacity: 0.8;
 }

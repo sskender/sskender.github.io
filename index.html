@@ -29,14 +29,30 @@
             <img class="profile" alt="Sven Skender" src="img/profile-web.jpeg" />
             <h1>Sven Skender</h1>
             <p class="email">sskender[at]pm[dot]me</p>
-            <div class="info">
-                <a href="https://github.com/sskender">GitHub</a>
-                <a href="https://www.linkedin.com/in/sskender/">LinkedIn</a>
-                <a href="https://medium.com/@sskender_">Medium</a>
+            <div id="spotify-badge" class="spotify-badge" style="display: none;">
+                <svg viewBox="0 0 16 16" class="spotify-icon" fill="currentColor">
+                    <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.433-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
+                </svg>
+                <div class="spotify-info">
+                    <span class="spotify-song" id="spotify-song-title"></span>
+                    <span class="spotify-artist" id="spotify-artist-name"></span>
+                </div>
+                <div class="equalizer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                </div>
             </div>
         </div>
     </main>
+    <script src="js/spotify.js"></script>
     <footer>
+        <div class="info">
+            <a href="https://github.com/sskender">GitHub</a>
+            <a href="https://www.linkedin.com/in/sskender/">LinkedIn</a>
+            <a href="https://medium.com/@sskender_">Medium</a>
+        </div>
         <small>&copy;
             <script>document.write(new Date().getFullYear())</script> Sven Skender
         </small>

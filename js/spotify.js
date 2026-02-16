@@ -24,5 +24,5 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     fetchSpotifyData();
-    setInterval(fetchSpotifyData, 5000);
+    setInterval(fetchSpotifyData, 2500);
 });

@@ -5,30 +5,51 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="author" content="sskender" />
-    <meta name="description" content="Sven Skender" />
-    <meta name="keywords" content="sskender, Sven, Skender" />
+    <meta name="author" content="Sven Skender" />
+    <meta name="description" content="Sven Skender. Find me on GitHub, LinkedIn, and Medium." />
+    <meta name="keywords" content="Sven Skender, sskender" />
+    <link rel="canonical" href="https://sskender.com" />
 
     <meta property="og:title" content="Sven Skender" />
-    <meta property="og:description" content="Personal website of Sven Skender" />
+    <meta property="og:description" content="Personal website of Sven Skender." />
     <meta property="og:image" content="https://sskender.com/img/profile-web.jpeg" />
     <meta property="og:url" content="https://sskender.com" />
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content="profile" />
+    <meta property="og:locale" content="en_US" />
     <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Sven Skender" />
+    <meta name="twitter:description" content="Personal website of Sven Skender." />
+    <meta name="twitter:image" content="https://sskender.com/img/profile-web.jpeg" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Sven Skender",
+      "email": "hello@sskender.com",
+      "url": "https://sskender.com",
+      "image": "https://sskender.com/img/profile-web.jpeg",
+      "sameAs": [
+        "https://github.com/sskender",
+        "https://www.linkedin.com/in/sskender/",
+        "https://medium.com/@sskender_"
+      ]
+    }
+    </script>
 
     <link rel="apple-touch-icon" href="img/profile-web.jpeg" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <title>Sven Skender</title>
+    <title>Sven Skender — sskender.com</title>
 </head>
 
 <body>
     <main>
         <div class="container">
-            <img class="profile" alt="Sven Skender" src="img/profile-web.jpeg" />
+            <img class="profile" alt="Sven Skender" src="img/profile-web.jpeg" width="160" height="160" />
             <h1>Sven Skender</h1>
-            <p class="email">sskender[at]pm[dot]me</p>
+            <p class="email"><a href="mailto:hello&#64;sskender&#46;com">hello&#64;sskender&#46;com</a></p>
             <div id="spotify-badge" class="spotify-badge" style="display: none;">
                 <svg viewBox="0 0 16 16" class="spotify-icon" fill="currentColor">
                     <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.669 11.538a.498.498 0 0 1-.686.165c-1.879-1.147-4.243-1.407-7.028-.77a.499.499 0 0 1-.222-.973c3.048-.696 5.662-.397 7.77.892a.5.5 0 0 1 .166.686zm.979-2.178a.624.624 0 0 1-.858.205c-2.15-1.321-5.428-1.704-7.972-.932a.625.625 0 0 1-.362-1.194c2.905-.881 6.517-.454 8.986 1.063a.624.624 0 0 1 .206.858zm.084-2.268C10.154 5.56 5.9 5.419 3.438 6.166a.748.748 0 1 1-.433-1.432c2.825-.857 7.523-.692 10.492 1.07a.747.747 0 1 1-.764 1.288z"/>
@@ -43,19 +64,19 @@
                     <span class="bar"></span>
                 </div>
                 </div>
-            </div>
         </div>
     </main>
     <script src="js/spotify.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
     <footer>
-        <div class="info">
-            <a href="https://github.com/sskender">GitHub</a>
-            <a href="https://www.linkedin.com/in/sskender/">LinkedIn</a>
-            <a href="https://medium.com/@sskender_">Medium</a>
-        </div>
-        <small>&copy;
-            <script>document.write(new Date().getFullYear())</script> Sven Skender
-        </small>
+        <nav aria-label="Social links">
+            <div class="info">
+                <a href="https://github.com/sskender" rel="me noopener noreferrer" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/sskender/" rel="me noopener noreferrer" target="_blank">LinkedIn</a>
+                <a href="https://medium.com/@sskender_" rel="me noopener noreferrer" target="_blank">Medium</a>
+            </div>
+        </nav>
+        <small>&copy; <span id="year"></span> Sven Skender</small>
     </footer>
 </body>
 

@@ -6,33 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Sven Skender" />
-    <meta name="description" content="Sven Skender. Find me on GitHub, LinkedIn, and Medium." />
+    <meta name="description" content="Sven Skender's personal website. Connect with me on GitHub, LinkedIn, and Medium. See what I'm currently listening to on Spotify." />
     <meta name="keywords" content="Sven Skender, sskender" />
+    <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0a0a0a" media="(prefers-color-scheme: dark)" />
     <link rel="canonical" href="https://sskender.com" />
+    <link rel="preconnect" href="https://fu737dkvsrvo5axhjyjekhgr6e0kwwgl.lambda-url.eu-central-1.on.aws" crossorigin />
 
     <meta property="og:title" content="Sven Skender" />
-    <meta property="og:description" content="Personal website of Sven Skender." />
+    <meta property="og:description" content="Sven Skender's personal website. Connect with me on GitHub, LinkedIn, and Medium. See what I'm currently listening to on Spotify." />
     <meta property="og:image" content="https://sskender.com/img/profile-web.jpeg" />
+    <meta property="og:image:alt" content="Portrait of Sven Skender" />
     <meta property="og:url" content="https://sskender.com" />
     <meta property="og:type" content="profile" />
     <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Sven Skender" />
-    <meta name="twitter:description" content="Personal website of Sven Skender." />
+    <meta name="twitter:description" content="Sven Skender's personal website. Connect with me on GitHub, LinkedIn, and Medium. See what I'm currently listening to on Spotify." />
     <meta name="twitter:image" content="https://sskender.com/img/profile-web.jpeg" />
+    <meta name="twitter:image:alt" content="Portrait of Sven Skender" />
 
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Sven Skender",
-      "email": "hello@sskender.com",
-      "url": "https://sskender.com",
-      "image": "https://sskender.com/img/profile-web.jpeg",
-      "sameAs": [
-        "https://github.com/sskender",
-        "https://www.linkedin.com/in/sskender/",
-        "https://medium.com/@sskender_"
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://sskender.com/#person",
+          "name": "Sven Skender",
+          "email": "hello@sskender.com",
+          "url": "https://sskender.com",
+          "image": "https://sskender.com/img/profile-web.jpeg",
+          "sameAs": [
+            "https://github.com/sskender",
+            "https://www.linkedin.com/in/sskender/",
+            "https://medium.com/@sskender_"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://sskender.com/#website",
+          "url": "https://sskender.com",
+          "name": "Sven Skender",
+          "description": "Sven Skender's personal website. Connect with me on GitHub, LinkedIn, and Medium. See what I'm currently listening to on Spotify.",
+          "inLanguage": "en",
+          "dateModified": "2026-04-15",
+          "publisher": {
+            "@id": "https://sskender.com/#person"
+          }
+        }
       ]
     }
     </script>
@@ -41,7 +65,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-    <title>Sven Skender — sskender.com</title>
+    <title>Sven Skender — Personal Website | GitHub, LinkedIn, Medium</title>
 </head>
 
 <body>
@@ -63,7 +87,7 @@
                     <span class="bar"></span>
                     <span class="bar"></span>
                 </div>
-                </div>
+            </div>
         </div>
     </main>
     <script src="js/spotify.js"></script>
